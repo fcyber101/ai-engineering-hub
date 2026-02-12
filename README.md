@@ -116,7 +116,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
    pip install -r requirements.txt
    ```
 
-Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
+#### Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
 ---
 
 ### 🐳 Option 2: Docker Compose (Recommended)
@@ -155,13 +155,26 @@ Follow the project-specific instructions in each project's `README.md` file to s
 
 ### Option 3: Hugging Face Spaces [![Live Demo](https://img.shields.io/badge/%F0%9F%A4%97%2520Live%2520Demo-Hugging%2520Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/fcyber/agentic_rag)
 
+### 🤗 Option 3: Hugging Face Spaces
+
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/fcyber/agentic_rag)
+
 ```bash
 # No installation needed! Click the badge above to try the live demo.
 # Or clone and run locally:
 pip install huggingface-hub
 huggingface-cli download fcyber/agentic-rag-assistant
-streamlit run app.py
-```
+python app.py  # Gradio apps run with python
+---
+
+## 🎯 Quick Start Comparison (Updated)
+
+| Method | Command | Time | Requires |
+|--------|---------|------|----------|
+| **Python** | `pip install -r requirements.txt && python app.py` | 2-5 min | Python 3.9+ |
+| **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
+| **Hugging Face** | Click link | 1 sec | Web browser |
+
 ---
 
 ## 🛠️ Technology Stack
