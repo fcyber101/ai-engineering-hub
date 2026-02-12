@@ -94,3 +94,58 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/yourusername/ai-engineering-hub.git](https://github.com/yourusername/ai-engineering-hub.git)
+
+
+2. **Navigate to the desired project directory**
+   ```bash
+   cd awesome-llm-apps/starter_ai_agents/ai_travel_agent
+   ```
+
+3. **Install the required dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
+
+---
+
+## 🛠️ Technology Stack
+| Category | Technologies |
+| --- | --- |
+| LLM Frameworks | LangChain, LangGraph, LlamaIndex |
+| Models | GPT-4, Claude 3.5, Sonnet, Gemini 1.5 Pro, Llama 3.1, Qwen 2.5 |
+| Vector Databases | Pinecone, Chroma, Weaviate, Qdrant |
+| Embeddings | OpenAI, Cohere, HuggingFace, Voyage |
+| Frontend | Streamlit, Gradio, Chainlit |
+| Monitoring | LangSmith, Arize Phoenix, Weights & Biases |
+| Deployment | Streamlit Cloud, Hugging Face Spaces, Docker, AWS |
+
+---
+
+## 🤝 Contributing
+We welcome contributions! Please follow these steps:
+- Fork the repository
+- Create a feature branch (`git checkout -b feature/amazing-project`)
+- Commit your changes (`git commit -m 'Add amazing project'`)
+- Push to the branch (`git push origin feature/amazing-project`)
+- Open a Pull Request
+
+### ✅ Contribution Checklist
+- Self-contained project directory
+- Comprehensive README with setup instructions
+-Working demo with clear setup steps
+-.env.example with all required variables
+-requirements.txt with pinned versions
+-Screenshots demonstrating functionality 
+ 
+---
+ 
+## 📊 Repository Stats 
+<div align="center">
+![GitHub Stars](https://img.shields.io/github/stars/yourusername/ai-engineering-hub?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/yourusername/ai-engineering-hub?style=social)
+![GitHub Watchers](https://img.shields.io/github/watchers/yourusername/ai-engineering-hub?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/yourusername/ai-engineering-hub)
+![GitHub PRs](https://img.shields.io/github/issues-pr/yourusername/ai-engineering-hub)
+</div>
