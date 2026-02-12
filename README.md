@@ -250,8 +250,11 @@ We welcome contributions! Please follow these steps:
 </div>
 
 ---
-
+[![Star History Chart](https://api.star-history.com/svg?repos=fcyber101/ai-engineering-hub&type=Date)](https://star-history.com/#fcyber101/ai-engineering-hub&Date)
+---
 <sub>Built with ❤️ by AI Engineers for AI Engineers</sub>
+
+
 
 </center>
 
