@@ -23,12 +23,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 <div align="right">
   
 [![EN](https://img.shields.io/badge/EN-English-blue)](README.md)
-[![ES](https://img.shields.io/badge/ES-Español-red)](README.es.md)
-[![FR](https://img.shields.io/badge/FR-Français-blue)](README.fr.md)
 [![DE](https://img.shields.io/badge/DE-Deutsch-black)](README.de.md)
-[![JA](https://img.shields.io/badge/JA-日本語-red)](README.ja.md)
-[![KO](https://img.shields.io/badge/KO-한국어-blue)](README.ko.md)
-[![PT](https://img.shields.io/badge/PT-Português-green)](README.pt.md)
 [![RU](https://img.shields.io/badge/RU-Русский-orange)](README.ru.md)
 [![ZH](https://img.shields.io/badge/ZH-中文-yellow)](README.zh.md)
 
@@ -99,6 +94,15 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 ---
 
 ## 🚀 Getting Started
+### 🎯 Quick Start Comparison (Updated)
+
+| Method | Command | Time | Requires |
+|--------|---------|------|----------|
+| **Python** | `pip install -r requirements.txt && python app.py` | 2-5 min | Python 3.9+ |
+| **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
+| **Hugging Face** | Click link | 1 sec | Web browser |
+
+---
 ### 📦 Option 1: Python (Local Setup)
 
 1. **Clone the repository**
@@ -166,15 +170,6 @@ python app.py  # Gradio apps run with python
 ```
 ---
 
-## 🎯 Quick Start Comparison (Updated)
-
-| Method | Command | Time | Requires |
-|--------|---------|------|----------|
-| **Python** | `pip install -r requirements.txt && python app.py` | 2-5 min | Python 3.9+ |
-| **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
-| **Hugging Face** | Click link | 1 sec | Web browser |
-
----
 
 ## 🛠️ Technology Stack
 | Category | Technologies |
