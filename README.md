@@ -153,8 +153,6 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 ---
 
-### Option 3: Hugging Face Spaces [![Live Demo](https://img.shields.io/badge/%F0%9F%A4%97%2520Live%2520Demo-Hugging%2520Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/fcyber/agentic_rag)
-
 ### 🤗 Option 3: Hugging Face Spaces
 
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/fcyber/agentic_rag)
@@ -165,6 +163,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 pip install huggingface-hub
 huggingface-cli download fcyber/agentic-rag-assistant
 python app.py  # Gradio apps run with python
+```
 ---
 
 ## 🎯 Quick Start Comparison (Updated)
