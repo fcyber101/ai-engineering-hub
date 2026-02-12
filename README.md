@@ -50,8 +50,8 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 ### 1. 👨‍💼 Agentic RAG Assistant
 
-**Smart Q&A Assistant with intelligent routing, query refinement, hallucination checking, and self-correction loops.(./01-agentic-rag-assistant)**
-**Test it (**https://huggingface.co/spaces/fcyber/agentic_rag**)**
+**[Smart Q&A Assistant with intelligent routing, query refinement, hallucination checking, and self-correction loops.](./01-agentic-rag-assistant)**
+**[Test it](**https://huggingface.co/spaces/fcyber/agentic_rag**)**
 <div align="center">
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
