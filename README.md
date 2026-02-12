@@ -33,7 +33,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 [🚀 Getting Started](#-getting-started) •
 [🤔 Why AI Engineering Hub?](#-why-ai-engineering-hub) •
 [🤝 Contributing](#-contributing) •
-[🙏 Thank You](#-thank-you) •
+[🙏 Thank You](#-thank-you-community-for-the-support)
 
 
 </div>
