@@ -108,7 +108,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 2. **Navigate to the desired project directory**
    ```bash
-   cd awesome-llm-apps/starter_ai_agents/ai_travel_agent
+   cd ai-engineering-hub/01-agentic-rag-assistant
    ```
 
 3. **Install the required dependencies**
@@ -119,28 +119,35 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
 
 
-# Option 2: Docker Compose (Recommended)
+### 🐳 Option 2: Docker Compose (Recommended)
 
 ```bash
-# Clone the repository
-git clone https://github.com/fcyber/ai-engineering-hub.git
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/fcyber/ai-engineering-hub.git
+   ```
+2. **Navigate to the desired project directory**
+   ```bash
+   cd ai-engineering-hub/01-agentic-rag-assistant
+   ```
 
-# Navigate to project directory
-cd ai-engineering-hub/01-agentic-rag-assistant
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-
-# Run with Docker Compose
-docker-compose up -d
-
-# View logs (optional)
-docker-compose logs -f
-
-# Stop the container
-docker-compose down
-```
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your API keys
+   ```
+4. **Run with Docker Compose**
+   ```bash
+   docker-compose up -d
+   ```
+6. **View logs (optional)**
+   ```bash
+   docker-compose logs -f
+   ```
+7. **Stop the container**
+   ```bash
+   docker-compose down
+   ```
 
 **That's it!** The project includes a pre-configured `Dockerfile` and `docker-compose.yml` — no additional setup needed.
 
