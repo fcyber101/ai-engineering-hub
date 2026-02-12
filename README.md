@@ -192,15 +192,15 @@ We welcome contributions! Please follow these steps:
 - Create a feature branch 
    ```bash
   git checkout -b feature/amazing-project
-      ```
+   ```
 - Commit your changes 
-   ```bash
+  ```bash
   git commit -am 'Add amazing project'
   ```
 - Push to the branch
   ```bash
   git push origin feature/amazing-project
-    ```
+  ```
 - Open a Pull Request
 
 ### ✅ Contribution Checklist
