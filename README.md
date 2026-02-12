@@ -43,9 +43,9 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 ## 📂 Featured AI Projects
 
-### 1. 👨‍💼 Agentic RAG Assistant
 
-[**Smart Q&A Assistant with intelligent routing, query refinement, hallucination checking, and self-correction loops.**](./01-agentic-rag-assistant)
+
+[### 1. 👨‍💼 Agentic RAG Assistant: **Smart Q&A Assistant with intelligent routing, query refinement, hallucination checking, and self-correction loops.**](./01-agentic-rag-assistant)
 
 [**Test it**](https://huggingface.co/spaces/fcyber/agentic_rag)
 <div align="center">
@@ -144,7 +144,6 @@ We welcome contributions! Please follow these steps:
 <br> <br>
 <sub>Built with ❤️ by AI Engineers for AI Engineers</sub>
 
-<sub>Inspired by <a href="https://github.com/Shubhamsaboo/awesome-llm-apps">Awesome LLM Apps</a></sub>
 </center>
  
 ---
@@ -155,15 +154,15 @@ We welcome contributions! Please follow these steps:
 
 | ⭐ **Stars** | 🍴 **Forks** | 👀 **Watchers** |
 |:-----------:|:-----------:|:--------------:|
-| [![GitHub Stars](https://img.shields.io/github/stars/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=ffd700)](https://github.com/fcyber/ai-engineering-hub/stargazers) | [![GitHub Forks](https://img.shields.io/github/forks/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=58a6ff)](https://github.com/fcyber/ai-engineering-hub/network/members) | [![GitHub Watchers](https://img.shields.io/github/watchers/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=2ea44f)](https://github.com/fcyber/ai-engineering-hub/watchers) |
+| [![GitHub Stars](https://img.shields.io/github/stars/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=ffd700)](https://github.com/fcyber101/ai-engineering-hub/stargazers) | [![GitHub Forks](https://img.shields.io/github/forks/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=58a6ff)](https://github.com/fcyber101/ai-engineering-hub/network/members) | [![GitHub Watchers](https://img.shields.io/github/watchers/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=2ea44f)](https://github.com/fcyber101/ai-engineering-hub/watchers) |
 
 | 🐛 **Issues** | 🔀 **PRs** | 📦 **Releases** |
 |:------------:|:----------:|:---------------:|
-| [![GitHub Issues](https://img.shields.io/github/issues/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f85149)](https://github.com/fcyber/ai-engineering-hub/issues) | [![GitHub PRs](https://img.shields.io/github/issues-pr/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f0883e)](https://github.com/fcyber/ai-engineering-hub/pulls) | [![GitHub Release](https://img.shields.io/github/v/release/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=a371f7)](https://github.com/fcyber/ai-engineering-hub/releases) |
+| [![GitHub Issues](https://img.shields.io/github/issues/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f85149)](https://github.com/fcyber101/ai-engineering-hub/issues) | [![GitHub PRs](https://img.shields.io/github/issues-pr/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f0883e)](https://github.com/fcyber101/ai-engineering-hub/pulls) | [![GitHub Release](https://img.shields.io/github/v/release/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=a371f7)](https://github.com/fcyber101/ai-engineering-hub/releases) |
 
 | 👥 **Contributors** | 📅 **Last Commit** | 📝 **License** |
 |:------------------:|:------------------:|:--------------:|
-| [![GitHub Contributors](https://img.shields.io/github/contributors/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber/ai-engineering-hub/graphs/contributors) | [![GitHub Last Commit](https://img.shields.io/github/last-commit/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber/ai-engineering-hub/commits/main) | [![GitHub License](https://img.shields.io/github/license/fcyber/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber/ai-engineering-hub/blob/main/LICENSE) |
+| [![GitHub Contributors](https://img.shields.io/github/contributors/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/graphs/contributors) | [![GitHub Last Commit](https://img.shields.io/github/last-commit/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/commits/main) | [![GitHub License](https://img.shields.io/github/license/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/blob/main/LICENSE) |
 
 </div>
 
