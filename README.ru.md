@@ -103,20 +103,25 @@
 
 ### 📦 Вариант 1: Python (Локальная настройка)
 
+# Инструкции по работе с репозиторием
+
 1. **Клонировать репозиторий**
-   ```bash
-   git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
-   ```
+
+```bash
+git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
+```
 
 2. **Перейти в нужную директорию проекта**
-   ```bash
-   cd ai-engineering-hub/01-agentic-rag-assistant
-   ```
+
+```bash
+cd ai-engineering-hub/01-agentic-rag-assistant
+```
 
 3. **Установить необходимые зависимости**
-   ```bash
-   pip install -r requirements.txt
-   ```
+
+```bash
+pip install -r requirements.txt
+```
 
 #### Следуйте инструкциям в файле `README.md` каждого проекта для настройки и запуска приложения.
 
@@ -125,42 +130,50 @@
 ### 🐳 Вариант 2: Docker Compose (Рекомендуется)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/fcyber/agentic-rag-assistant)
 [![Docker Compose](https://img.shields.io/badge/Docker_Compose-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+# Руководство по запуску проекта
 
 1. **Клонировать репозиторий**
-   ```bash
-   git clone https://github.com/fcyber/ai-engineering-hub.git
-   ```
+
+```bash
+git clone https://github.com/fcyber/ai-engineering-hub.git
+```
 
 2. **Перейти в нужную директорию проекта**
-   ```bash
-   cd ai-engineering-hub/01-agentic-rag-assistant
-   ```
+
+```bash
+cd ai-engineering-hub/01-agentic-rag-assistant
+```
 
 3. **Настроить переменные окружения**
-   ```bash
-   cp .env.example .env
-   # Отредактируйте .env с вашими GROQ_API_KEY-ключами
-   ```
+
+```bash
+cp .env.example .env
+# Отредактируйте .env с вашими GROQ_API_KEY-ключами
+```
 
 4. **Запустить с Docker Compose**
-   ```bash
-   docker-compose up -d
-   ```
+
+```bash
+docker-compose up -d
+```
 
 5. **Просмотр логов (опционально)**
-   ```bash
-   docker-compose logs -f
-   ```
-6. **Открой в браузере**
-   ```bash
-   http://localhost:7860
-   ```
+
+```bash
+docker-compose logs -f
+```
+
+6. **Откройте в браузере**
+
+```bash
+http://localhost:7860
+```
 
 7. **Остановить контейнер**
-   ```bash
-   docker-compose down
-   ```
 
+```bash
+docker-compose down
+```
 **Вот и всё!** Проект включает предварительно настроенные `Dockerfile` и `docker-compose.yml` — дополнительная настройка не требуется.
 
 • • •

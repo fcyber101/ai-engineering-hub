@@ -102,20 +102,22 @@
 
 ### 📦 选项1：Python（本地设置）
 
+# 操作步骤
+
 1. **克隆代码库**
-   ```bash
-   git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
-   ```
+```bash
+git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
+```
 
 2. **导航到所需项目目录**
-   ```bash
-   cd ai-engineering-hub/01-agentic-rag-assistant
-   ```
+```bash
+cd ai-engineering-hub/01-agentic-rag-assistant
+```
 
 3. **安装所需的依赖项**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 #### 请遵循每个项目`README.md`文件中的特定项目说明来设置和运行应用。
 
