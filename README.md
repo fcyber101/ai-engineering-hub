@@ -1,4 +1,4 @@
-# 🌟 AI Engineering Hub
+# 🌟 AI Engineering Hub <sup>✨ 1/15 project · more on the way</sup>
 
 <div align="center">
 

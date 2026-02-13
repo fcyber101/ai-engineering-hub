@@ -1,4 +1,4 @@
-# 🌟 AI Engineering Hub
+# 🌟 AI Engineering Hub <sup>✨ 1/15 个项目 · 更多即将推出</sup>
 
 <div align="center">
 
