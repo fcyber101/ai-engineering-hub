@@ -1,24 +1,4 @@
-# 🌟 AI Engineering Hub
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-link)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profile-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/fcyber)
-
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-0.1.0-1C3C3C?logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-0.0.20-7C3AED)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-Claude-CC5A4A?logo=anthropic&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?logo=streamlit&logoColor=white)
-![许可证](https://img.shields.io/badge/许可证-MIT-yellow)
-![贡献](https://img.shields.io/badge/贡献-欢迎-brightgreen)
-
-<h3>精选的生产就绪型LLM应用集合，基于RAG、AI智能体、代理系统、MCP等构建</h3>
-
-<p>
-本代码库包含使用<strong>OpenAI</strong>、<strong>Anthropic</strong>、<strong>Google</strong>、<strong>xAI</strong>模型以及<strong>Qwen</strong>或<strong>Llama</strong>等开源模型的LLM应用，您可以在本地计算机上运行这些应用。
-</p>
 
 <div align="center">
   
@@ -37,17 +17,6 @@
 
 </div>
 
----
-
-## 🤔 为什么选择AI Engineering Hub？
-
-| 💡 发现 | 🔥 探索 | 🎓 学习 |
-| :--- | :--- | :--- |
-| 发现LLM在不同领域（从文档分析到智能代理）的实用和创造性应用方式。 | 探索将LLM与AI智能体、智能体团队、MCP和代理型RAG相结合的应用。 | 从文档完善的项目中学习，并为不断增长的开源生态系统做出贡献。 |
-
----
-
-## 📂 精选AI项目
 
 ### 👨‍💼 [1. 代理型RAG助手](./01-agentic-rag-assistant)   
 [![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](your-video-link) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
@@ -176,85 +145,3 @@ python app.py  # Gradio应用通过python运行
 
 ```
 
-
-
-## 🛠️ 技术栈
-
-| 类别 | 技术 |
-| --- | --- |
-| LLM框架 | LangChain, LangGraph, LlamaIndex |
-| 模型 | GPT-4, Claude 3.5, Sonnet, Gemini 1.5 Pro, Llama 3.1, Qwen 2.5 |
-| 向量数据库 | Pinecone, Chroma, Weaviate, Qdrant |
-| 嵌入技术 | OpenAI, Cohere, HuggingFace, Voyage |
-| 前端 | Streamlit, Gradio, Chainlit |
-| 监控 | LangSmith, Arize Phoenix, Weights & Biases |
-| 部署 | Streamlit Cloud, Hugging Face Spaces, Docker, AWS |
-
----
-
-## 🤝 参与贡献
-
-我们欢迎贡献！请遵循以下步骤：
-
-- 复刻（Fork）代码库
-- 创建功能分支 
-   ```bash
-   git checkout -b feature/精彩项目
-   ```
-- 提交您的更改 
-  ```bash
-  git commit -am '添加精彩项目'
-  ```
-- 推送到分支
-  ```bash
-  git push origin feature/精彩项目
-  ```
-- 开启拉取请求（Pull Request）
-
-### ✅ 贡献检查清单
-
-- 独立的项目目录
-- 包含设置说明的完整README文件
-- 具有清晰设置步骤的有效演示
-- 包含所有必需变量的`.env.example`文件
-- 包含固定版本依赖的`requirements.txt`文件
-- 展示功能的屏幕截图
-
----
-
-## 🙏 感谢社区支持！
-
-<br> <br>
-
-<center>
-⭐ 如果您觉得这个代码库有用，请给它加星！ ⭐
-
-<br> <br>
-
----
- 
-## 📊 代码库统计
-
-<div align="center">
-
-| ⭐ **星标数** | 🍴 **复刻数** | 👀 **关注者** |
-|:-----------:|:-----------:|:--------------:|
-| [![GitHub Stars](https://img.shields.io/github/stars/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=ffd700)](https://github.com/fcyber101/ai-engineering-hub/stargazers) | [![GitHub Forks](https://img.shields.io/github/forks/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=58a6ff)](https://github.com/fcyber101/ai-engineering-hub/network/members) | [![GitHub Watchers](https://img.shields.io/github/watchers/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=2ea44f)](https://github.com/fcyber101/ai-engineering-hub/watchers) |
-
-| 🐛 **问题** | 🔀 **拉取请求** | 📦 **版本发布** |
-|:------------:|:----------:|:---------------:|
-| [![GitHub Issues](https://img.shields.io/github/issues/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f85149)](https://github.com/fcyber101/ai-engineering-hub/issues) | [![GitHub PRs](https://img.shields.io/github/issues-pr/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f0883e)](https://github.com/fcyber101/ai-engineering-hub/pulls) | [![GitHub Release](https://img.shields.io/github/v/release/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=a371f7)](https://github.com/fcyber101/ai-engineering-hub/releases) |
-
-| 👥 **贡献者** | 📅 **最后提交** | 📝 **许可证** |
-|:------------------:|:------------------:|:--------------:|
-| [![GitHub Contributors](https://img.shields.io/github/contributors/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/graphs/contributors) | [![GitHub Last Commit](https://img.shields.io/github/last-commit/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/commits/main) | [![GitHub License](https://img.shields.io/github/license/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/blob/main/LICENSE) |
-
-</div>
-
----
-[![Star History Chart](https://api.star-history.com/svg?repos=fcyber101/ai-engineering-hub&type=Date)](https://star-history.com/#fcyber101/ai-engineering-hub&Date)
----
-
-<sub>由AI工程师为AI工程师用❤️构建</sub>
-
-</center>

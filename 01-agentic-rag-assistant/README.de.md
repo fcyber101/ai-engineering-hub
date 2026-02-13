@@ -1,32 +1,4 @@
-# 🌟 KI-Engineering Hub
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-link)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profil-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/fcyber)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/fcyber/agentic-rag-assistant)
-
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-0.1.0-1C3C3C?logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-0.0.20-7C3AED)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-Claude-CC5A4A?logo=anthropic&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?logo=streamlit&logoColor=white)
-![Lizenz](https://img.shields.io/badge/Lizenz-MIT-gelb)
-![Beiträge](https://img.shields.io/badge/Beiträge-Willkommen-brightgreen)
-![Docker](https://img.shields.io/badge/Docker-27.0%2B-2496ED?logo=docker&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-1.2%2B-5C6BC0?logo=protocol&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-7.2%2B-DC382D?logo=redis&logoColor=white)
-![A2A](https://img.shields.io/badge/A2A-2.0%2B-FF6B4A?logo=a2a&logoColor=white)
-![Autogen](https://img.shields.io/badge/Autogen-0.2%2B-4B8BBE?logo=autogen&logoColor=white)
-![crewAI](https://img.shields.io/badge/crewAI-0.3%2B-FFA500?logo=crewai&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)
-
-<h3>Eine kuratierte Sammlung produktionsreifer LLM-Anwendungen, erstellt mit RAG, KI-Agenten, agentischen Systemen, MCP und mehr</h3>
-
-<p>
-Dieses Repository enthält LLM-Apps, die Modelle von <strong>OpenAI</strong>, <strong>Anthropic</strong>, <strong>Google</strong>, <strong>xAI</strong> sowie Open-Source-Modelle wie <strong>Qwen</strong> oder <strong>Llama</strong> nutzen, die Sie lokal auf Ihrem Computer ausführen können.
-</p>
 
 <div align="center">
   
@@ -37,25 +9,7 @@ Dieses Repository enthält LLM-Apps, die Modelle von <strong>OpenAI</strong>, <s
 
 </div>
 
-[📂 Vorgestellte KI-Projekte](#-vorgestellte-ki-projekte) •
-[🚀 Erste Schritte](#-erste-schritte) •
-[🤔 Warum KI-Engineering Hub?](#-warum-ki-engineering-hub) •
-[🤝 Mitwirken](#-mitwirken) •
-[🙏 Danke](#-danke-community-für-die-unterstützung)
 
-</div>
-
----
-
-## 🤔 Warum KI-Engineering Hub?
-
-| 💡 **Entdecke die Möglichkeiten** | 🔥 **Erlebe die Evolution** | 🎓 **Meistere das Handwerk** |
-| :--- | :--- | :--- |
-| Geh über Chatbots hinaus – entdecke, wie LLMs Verträge analysieren, über Wissensgraphen argumentieren, Persönlichkeiten simulieren und komplexe Arbeitsabläufe automatisieren. | Vom einzelnen Agenten zum Schwarm – erlebe MCP-gestützte Tools, kollaborative Agententeams und selbstkorrigierende RAG-Pipelines in Aktion. | Forke, experimentiere und baue weiter. Jedes Projekt ist ein Klassenzimmer – dokumentiert, getestet und bereit für deine eigene Note. |
-
----
-
-## 📂 Vorgestellte KI-Projekte
 
 ### 👨‍💼 [1. Agentischer RAG-Assistent](./01-agentic-rag-assistant)    
 [![Demo Video](https://img.shields.io/badge/📺-Demo%20ansehen-rot)](your-video-link) [![Live App](https://img.shields.io/badge/🤗-Jetzt%20testen-gelb)](https://huggingface.co/spaces/fcyber/agentic_rag)
@@ -180,85 +134,4 @@ pip install huggingface-hub
 huggingface-cli download fcyber/agentic-rag-assistant
 python app.py  # Gradio-Apps werden mit python ausgeführt
 
-```
-## 🛠️ Technologie-Stack
-
-| Kategorie | Technologien |
-| --- | --- |
-| LLM-Frameworks | LangChain, LangGraph, LlamaIndex |
-| Modelle | GPT-4, Claude 3.5, Sonnet, Gemini 1.5 Pro, Llama 3.1, Qwen 2.5 |
-| Vektordatenbanken | Pinecone, Chroma, Weaviate, Qdrant |
-| Einbettungen | OpenAI, Cohere, HuggingFace, Voyage |
-| Frontend | Streamlit, Gradio, Chainlit |
-| Überwachung | LangSmith, Arize Phoenix, Weights & Biases |
-| Bereitstellung | Streamlit Cloud, Hugging Face Spaces, Docker, AWS |
-
----
-
-## 🤝 Mitwirken
-
-Wir begrüßen Beiträge! Bitte befolgen Sie diese Schritte:
-
-- Repository forken
-- Einen Feature-Branch erstellen 
-   ```bash
-   git checkout -b feature/erstaunliches-projekt
-   ```
-- Ihre Änderungen committen 
-  ```bash
-  git commit -am 'Erstaunliches Projekt hinzufügen'
-  ```
-- In den Branch pushen
-  ```bash
-  git push origin feature/erstaunliches-projekt
-  ```
-- Einen Pull Request öffnen
-
-### ✅ Checkliste für Beiträge
-
-- In sich geschlossenes Projektverzeichnis
-- Umfassende README mit Einrichtungsanweisungen
-- Funktionierende Demo mit klaren Einrichtungsschritten
-- `.env.example` mit allen erforderlichen Variablen
-- `requirements.txt` mit festgelegten Versionen
-- Screenshots, die die Funktionalität demonstrieren
-
----
-
-## 🙏 Danke, Community, für die Unterstützung!
-
-<br> <br>
-
-<center>
-⭐ Sternen Sie dieses Repository, wenn Sie es nützlich finden! ⭐
-
-<br> <br>
-
----
- 
-## 📊 Repository-Statistiken
-
-<div align="center">
-
-| ⭐ **Sterne** | 🍴 **Forks** | 👀 **Beobachter** |
-|:-----------:|:-----------:|:--------------:|
-| [![GitHub Sterne](https://img.shields.io/github/stars/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=ffd700)](https://github.com/fcyber101/ai-engineering-hub/stargazers) | [![GitHub Forks](https://img.shields.io/github/forks/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=58a6ff)](https://github.com/fcyber101/ai-engineering-hub/network/members) | [![GitHub Beobachter](https://img.shields.io/github/watchers/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=2ea44f)](https://github.com/fcyber101/ai-engineering-hub/watchers) |
-
-| 🐛 **Probleme** | 🔀 **PRs** | 📦 **Versionen** |
-|:------------:|:----------:|:---------------:|
-| [![GitHub Probleme](https://img.shields.io/github/issues/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f85149)](https://github.com/fcyber101/ai-engineering-hub/issues) | [![GitHub PRs](https://img.shields.io/github/issues-pr/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f0883e)](https://github.com/fcyber101/ai-engineering-hub/pulls) | [![GitHub Version](https://img.shields.io/github/v/release/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=a371f7)](https://github.com/fcyber101/ai-engineering-hub/releases) |
-
-| 👥 **Mitwirkende** | 📅 **Letzter Commit** | 📝 **Lizenz** |
-|:------------------:|:------------------:|:--------------:|
-| [![GitHub Mitwirkende](https://img.shields.io/github/contributors/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/graphs/contributors) | [![GitHub Letzter Commit](https://img.shields.io/github/last-commit/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/commits/main) | [![GitHub Lizenz](https://img.shields.io/github/license/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/blob/main/LICENSE) |
-
-</div>
-
----
-[![Star History Chart](https://api.star-history.com/svg?repos=fcyber101/ai-engineering-hub&type=Date)](https://star-history.com/#fcyber101/ai-engineering-hub&Date)
----
-
-<sub>Erstellt mit ❤️ von KI-Ingenieuren für KI-Ingenieure</sub>
-
-</center>
 ```
