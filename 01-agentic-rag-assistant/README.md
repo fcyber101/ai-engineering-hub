@@ -8,7 +8,7 @@
 </div>
 
 
-### 👨‍💼 [1. Agentic RAG Assistant]
+### 👨‍💼 1. Agentic RAG Assistant
 [![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](media/project_1.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
 
 #### Smart Q&A Assistant with intelligent routing, query refinement, hallucination checking, and self-correction loops.
