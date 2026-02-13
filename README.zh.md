@@ -8,8 +8,9 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-link)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fcyber)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profile-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/fcyber)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/fcyber)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-0.1.0-1C3C3C?logo=langchain&logoColor=white)
@@ -17,8 +18,15 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-Claude-CC5A4A?logo=anthropic&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?logo=streamlit&logoColor=white)
-![许可证](https://img.shields.io/badge/许可证-MIT-yellow)
-![贡献](https://img.shields.io/badge/贡献-欢迎-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-27.0%2B-2496ED?logo=docker&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-1.2%2B-5C6BC0?logo=protocol&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-7.2%2B-DC382D?logo=redis&logoColor=white)
+![A2A](https://img.shields.io/badge/A2A-2.0%2B-FF6B4A?logo=a2a&logoColor=white)
+![Autogen](https://img.shields.io/badge/Autogen-0.2%2B-4B8BBE?logo=autogen&logoColor=white)
+![crewAI](https://img.shields.io/badge/crewAI-0.3%2B-FFA500?logo=crewai&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)
 
 <h3>全面的企业级LLM应用展示，涵盖RAG架构、智能AI代理、自主代理系统、模型上下文协议(MCP)、LangChain/LangGraph框架以及尖端的生成式AI模式</h3>
 
