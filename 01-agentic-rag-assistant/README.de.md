@@ -3,24 +3,24 @@
 <div align="center">
   
 [![EN](https://img.shields.io/badge/EN-English-blue)](README.md)
-[![DE](https://img.shields.io/badge/DE-Deutsch-schwarz)](README.de.md)
+[![DE](https://img.shields.io/badge/DE-Deutsch-black)](README.de.md)
 [![RU](https://img.shields.io/badge/RU-Русский-orange)](README.ru.md)
-[![ZH](https://img.shields.io/badge/ZH-中文-gelb)](README.zh.md)
+[![ZH](https://img.shields.io/badge/ZH-中文-yellow)](README.zh.md)
 
 </div>
 
 
 
 ### 👨‍💼 [1. Agentischer RAG-Assistent](./01-agentic-rag-assistant)    
-[![Demo Video](https://img.shields.io/badge/📺-Demo%20ansehen-rot)](your-video-link) [![Live App](https://img.shields.io/badge/🤗-Jetzt%20testen-gelb)](https://huggingface.co/spaces/fcyber/agentic_rag)
+[![Demo Video](https://img.shields.io/badge/📺-Demo%20ansehen-red)](media/project_1.gif) [![Live App](https://img.shields.io/badge/🤗-Jetzt%20testen-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
 
 #### Intelligenter Frage-Antwort-Assistent mit intelligentem Routing, Anfragenverfeinerung, Halluzinationsprüfung und Selbstkorrekturschleifen.
 
 <div align="center">
 
 ![Status](https://img.shields.io/badge/Status-Aktiv-success)
-![Schwierigkeit](https://img.shields.io/badge/Schwierigkeit-Fortgeschritten-rot)
-![LangGraph](https://img.shields.io/badge/LangGraph-%E2%9C%93-lila)
+![Schwierigkeit](https://img.shields.io/badge/Schwierigkeit-Fortgeschritten-red)
+![LangGraph](https://img.shields.io/badge/LangGraph-%E2%9C%93-purple)
 ![Hybride Suche](https://img.shields.io/badge/Hybride_Suche-%E2%9C%93-blau)
 ![Selbstkorrektur](https://img.shields.io/badge/Selbstkorrektur-%E2%9C%93-orange)
 

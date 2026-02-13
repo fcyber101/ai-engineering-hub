@@ -15,7 +15,7 @@
 ![许可证](https://img.shields.io/badge/许可证-MIT-yellow)
 ![贡献](https://img.shields.io/badge/贡献-欢迎-brightgreen)
 
-<h3>精选的生产就绪型LLM应用集合，基于RAG、AI智能体、代理系统、MCP等构建</h3>
+<h3>全面的企业级LLM应用展示，涵盖RAG架构、智能AI代理、自主代理系统、模型上下文协议(MCP)、LangChain/LangGraph框架以及尖端的生成式AI模式</h3>
 
 <p>
 本代码库包含使用<strong>OpenAI</strong>、<strong>Anthropic</strong>、<strong>Google</strong>、<strong>xAI</strong>模型以及<strong>Qwen</strong>或<strong>Llama</strong>等开源模型的LLM应用，您可以在本地计算机上运行这些应用。
@@ -56,12 +56,11 @@
 #### 智能问答助手，具备智能路由、查询优化、幻觉检测和自我修正循环功能。
 
 <div align="center">
-
-![状态](https://img.shields.io/badge/状态-活跃中-success)
-![难度](https://img.shields.io/badge/难度-高级-red)
-![LangGraph](https://img.shields.io/badge/LangGraph-%E2%9C%93-purple)
-![混合搜索](https://img.shields.io/badge/混合搜索-%E2%9C%93-blue)
-![自我修正](https://img.shields.io/badge/自我修正-%E2%9C%93-orange)
+  
+[![EN](https://img.shields.io/badge/EN-English-blue)](README.md)
+[![DE](https://img.shields.io/badge/DE-Deutsch-black)](README.de.md)
+[![RU](https://img.shields.io/badge/RU-Русский-orange)](README.ru.md)
+[![ZH](https://img.shields.io/badge/ZH-中文-yellow)](README.zh.md)
 
 </div>
 

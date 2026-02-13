@@ -15,14 +15,14 @@
 ![Лицензия](https://img.shields.io/badge/Лицензия-MIT-yellow)
 ![Вклады](https://img.shields.io/badge/Вклады-Приветствуются-brightgreen)
 
-<h3>Курируемая коллекция готовых к продакшену LLM-приложений, созданных с RAG, ИИ-агентами, агентными системами, MCP и другими технологиями</h3>
+<h3>Всесторонняя подборка LLM-приложений корпоративного уровня, включающая RAG-архитектуры, интеллектуальные ИИ-агенты, автономные агентные системы, протокол контекста модели (MCP), фреймворки LangChain/LangGraph и передовые шаблоны генеративного ИИ</h3>
 
 <p>
 Этот репозиторий содержит LLM-приложения, которые используют модели от <strong>OpenAI</strong>, <strong>Anthropic</strong>, <strong>Google</strong>, <strong>xAI</strong> и открытые модели, такие как <strong>Qwen</strong> или <strong>Llama</strong>, которые вы можете запускать локально на своем компьютере.
 </p>
 
 <div align="center">
-  
+  
 [![EN](https://img.shields.io/badge/EN-English-blue)](README.md)
 [![DE](https://img.shields.io/badge/DE-Deutsch-black)](README.de.md)
 [![RU](https://img.shields.io/badge/RU-Русский-orange)](README.ru.md)

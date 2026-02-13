@@ -23,7 +23,7 @@
 ![crewAI](https://img.shields.io/badge/crewAI-0.3%2B-FFA500?logo=crewai&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)
 
-<h3>Eine kuratierte Sammlung produktionsreifer LLM-Anwendungen, erstellt mit RAG, KI-Agenten, agentischen Systemen, MCP und mehr</h3>
+<h3>Eine umfassende Sammlung von LLM-Anwendungen auf Unternehmensebene mit RAG-Architekturen, intelligenten KI-Agenten, autonomen agentischen Systemen, Model Context Protocol (MCP), LangChain/LangGraph-Frameworks und modernsten generativen KI-Mustern</h3>
 
 <p>
 Dieses Repository enthält LLM-Apps, die Modelle von <strong>OpenAI</strong>, <strong>Anthropic</strong>, <strong>Google</strong>, <strong>xAI</strong> sowie Open-Source-Modelle wie <strong>Qwen</strong> oder <strong>Llama</strong> nutzen, die Sie lokal auf Ihrem Computer ausführen können.

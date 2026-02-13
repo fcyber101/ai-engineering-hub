@@ -22,8 +22,7 @@
 ![crewAI](https://img.shields.io/badge/crewAI-0.3%2B-FFA500?logo=crewai&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688?logo=fastapi&logoColor=white)
 
-<h3>A curated collection of production-ready LLM applications built with RAG, AI Agents, Agentic Systems, MCP, and more</h3>
-
+<h3>A comprehensive showcase of enterprise-grade LLM applications featuring RAG architectures, intelligent AI agents, autonomous agentic systems, Model Context Protocol (MCP), LangChain/LangGraph frameworks, and cutting-edge generative AI patterns</h3>
 <p>
 This repository features LLM apps that use models from <strong>OpenAI</strong>, <strong>Anthropic</strong>, <strong>Google</strong>, <strong>xAI</strong> and open-source models like <strong>Qwen</strong> or <strong>Llama</strong> that you can run locally on your computer.
 </p>
@@ -61,7 +60,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 
 ### 👨‍💼 [1. Agentic RAG Assistant](./01-agentic-rag-assistant)    
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](01-agentic-rag-assistant/media/project_1.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](./media/project_1.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
 
 #### Smart Q&A Assistant with intelligent routing, query refinement, hallucination checking, and self-correction loops.
 

@@ -5,9 +5,9 @@
 [![RU](https://img.shields.io/badge/RU-Русский-orange)](README.ru.md)
 [![ZH](https://img.shields.io/badge/ZH-中文-yellow)](README.zh.md)
 
-
+</div>
 ### 👨‍💼 [1. Agentic RAG Assistant](./01-agentic-rag-assistant)    
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](your-video-link) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](media/project_1.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
 
 #### Smart Q&A Assistant with intelligent routing, query refinement, hallucination checking, and self-correction loops.
 
