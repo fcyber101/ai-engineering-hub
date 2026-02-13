@@ -11,7 +11,7 @@
 
 
 
-### 👨‍💼 [1. Agentischer RAG-Assistent](./01-agentic-rag-assistant)    
+### 👨‍💼 [1. Agentischer RAG-Assistent]   
 [![Demo Video](https://img.shields.io/badge/📺-Demo%20ansehen-red)](media/project_1.gif) [![Live App](https://img.shields.io/badge/🤗-Jetzt%20testen-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
 
 #### Intelligenter Frage-Antwort-Assistent mit intelligentem Routing, Anfragenverfeinerung, Halluzinationsprüfung und Selbstkorrekturschleifen.
@@ -36,9 +36,11 @@
 
 ---
 
-
+<div align="center">
 
 ![Agentischer RAG-Workflow](media/workflow.jpeg)
+
+</div>
 
 ---
 

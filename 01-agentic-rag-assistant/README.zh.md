@@ -9,7 +9,7 @@
 
 
 
-### 👨‍💼 [1. 代理型RAG助手](./01-agentic-rag-assistant)   
+### 👨‍💼 [1. 代理型RAG助手]
 [![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](media/project_1.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/agentic_rag)
 
 #### 智能问答助手，具备智能路由、查询优化、幻觉检测和自我修正循环功能。
@@ -34,8 +34,13 @@
 
 ---
 
-![代理RAG工作流程](media/workflow.jpeg)
+<div align="center">
 
+![Agentischer RAG-Workflow](media/workflow.jpeg)
+
+</div>
+
+---
 
 
 ## 🚀 快速开始
