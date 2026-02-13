@@ -1,0 +1,25 @@
+#version: '3.8'
+
+services:
+  agentic-rag:
+    image: fcyber/agentic-rag-assistant:latest
+    container_name: agentic-rag-assistant
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./assets:/app/assets
+      - ./config:/app/config
+    restart: unless-stopped
+    environment:
+      - GRADIO_SERVER_NAME=0.0.0.0
+      - GRADIO_SERVER_PORT=7860
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

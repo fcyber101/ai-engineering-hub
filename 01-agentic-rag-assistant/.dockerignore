@@ -1,0 +1,47 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+
+# Virtual environment
+venv
+env
+.venv
+ENV
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Data (optional - uncomment to exclude)
+# data/chroma
+# data/*.pickle
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
