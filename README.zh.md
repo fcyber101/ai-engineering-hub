@@ -1,5 +1,10 @@
 # 🌟 AI Engineering Hub
+
+<div align="center">
+
 ![Agentic RAG Assistant Demo](01-agentic-rag-assistant/media/gif_3.gif)
+
+</div>
 
 <div align="center">
 

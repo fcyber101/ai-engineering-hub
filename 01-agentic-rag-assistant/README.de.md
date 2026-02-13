@@ -106,7 +106,10 @@ docker-compose logs -f
 ```
 
 6. **Zugriff auf die Anwendung (optional)**
-Besuchen Sie [http://localhost:7860](http://localhost:7860) im Browser.
+```bash
+http://localhost:7860
+```
+
 
 7. **Container stoppen**
 ```bash

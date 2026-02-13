@@ -1,5 +1,10 @@
 # 🌟 AI Engineering Hub
+
+<div align="center">
+
 ![Agentic RAG Assistant Demo](01-agentic-rag-assistant/media/gif_3.gif)
+
+</div>
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-link)
@@ -163,7 +168,10 @@ docker-compose logs -f
 ```
 
 6. **Open in browser**
-[http://localhost:7860](http://localhost:7860)
+```bash
+http://localhost:7860
+```
+
 
 7. **Stop the container**
 ```bash

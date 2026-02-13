@@ -101,7 +101,10 @@ docker-compose logs -f
 ```
 
 6. **Open in browser**
-[http://localhost:7860](http://localhost:7860)
+```bash
+http://localhost:7860
+```
+
 
 7. **Stop the container**
 ```bash
