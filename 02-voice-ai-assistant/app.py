@@ -82,10 +82,14 @@ with st.sidebar:
     st.divider()
     st.caption(f"Conversation turns: {len(st.session_state.conversation)}")
 
+if not st.session_state.api_key_valid:
+    st.warning("👆 Please enter a valid GROQ API key in the sidebar to start.")
+    st.stop()
 
 
 try:
     llm_text, audio_client = init_clients(selected_model, st.session_state.api_key)
+    st.success("✅ Connected to Groq API successfully!")
 except Exception as e:
     st.error(f"Failed to initialize clients: {e}")
     st.stop()
