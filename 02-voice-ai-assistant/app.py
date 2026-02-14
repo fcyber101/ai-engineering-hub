@@ -18,6 +18,10 @@ if "conversation" not in st.session_state:
     st.session_state.conversation = []
 if "processing" not in st.session_state:
     st.session_state.processing = False
+if "api_key_valid" not in st.session_state:
+    st.session_state.api_key_valid = False
+if "api_key" not in st.session_state:
+    st.session_state.api_key = os.getenv("GROQ_API_KEY", "")
 
 
 #  Configure page 
