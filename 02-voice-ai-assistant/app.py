@@ -1,5 +1,5 @@
 import streamlit as st
-
+import os 
 import io
 
 from langchain_core.messages import HumanMessage, SystemMessage
