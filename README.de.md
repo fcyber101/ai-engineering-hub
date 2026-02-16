@@ -207,7 +207,6 @@ python app.py  # Gradio-Apps werden mit python ausgeführt
 
 ## 📝 Artikel
 
-**Deutsch**  
 Ich habe einen Artikel zu diesem Projekt geschrieben:  
 [Why Integrating Apple’s Ecosystem into a Local RAG Project Is Harder Than It Looks](https://medium.com/@fcyber/why-integrating-apples-ecosystem-into-a-local-rag-project-is-harder-than-it-looks-3949f9f03131)  
 Dieser Artikel untersucht die Herausforderungen bei der Integration von Apples CLaRa-7B-Instruct in ein lokales RAG-System.
