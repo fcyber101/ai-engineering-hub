@@ -203,7 +203,13 @@ huggingface-cli download fcyber/agentic-rag-assistant
 python app.py  # Gradio apps run with python
 ```
 ---
+## 📝 Article
 
+I wrote an article explaining this project: [Why Integrating Apple’s Ecosystem into a Local RAG Project Is Harder Than It Looks ](https://medium.com/@fcyber/why-integrating-apples-ecosystem-into-a-local-rag-project-is-harder-than-it-looks-3949f9f03131)
+
+This article explores the real-world challenges of integrating Apple’s CLaRa-7B-Instruct into a local RAG system. While the model offers impressive compression and reasoning capabilities, running it locally introduces significant hardware, architectural, and deployment complexity. I break down what made it difficult and what I learned from the process.
+
+---
 
 ## 🛠️ Technology Stack
 | Category | Technologies |
