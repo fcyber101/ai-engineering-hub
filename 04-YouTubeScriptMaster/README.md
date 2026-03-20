@@ -8,18 +8,15 @@
 
 <div align="center">
 
-![Project Status](https://img.shields.io/badge/Project_Status-Active-success?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-✴️-blue?style=for-the-badge)
-![Groq](https://img.shields.io/badge/Groq-⚡-purple?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-📊-red?style=for-the-badge)
-![BART Model](https://img.shields.io/badge/BART_Model-🤗-blue?style=for-the-badge)
-![Transformers](https://img.shields.io/badge/🤗_Transformers-✔️-yellow?style=for-the-badge)
-![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen?style=for-the-badge)
-![YouTube Transcript API](https://img.shields.io/badge/YouTube_Transcript_API-📝-lightgrey?style=for-the-badge)
-![Pydantic](https://img.shields.io/badge/Pydantic-✅-teal?style=for-the-badge)
-![asyncio](https://img.shields.io/badge/asyncio-⚙️-orange?style=for-the-badge)
-![Project Level](https://img.shields.io/badge/Project_Level-Advanced-purple?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success) 
+![LangGraph](https://img.shields.io/badge/LangGraph-✴️-blue) 
+![Groq](https://img.shields.io/badge/Groq-⚡-purple) 
+![Streamlit](https://img.shields.io/badge/Streamlit-📊-red) 
+![BART](https://img.shields.io/badge/BART-🤗-blue) 
+![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen) 
+![Pydantic](https://img.shields.io/badge/Pydantic-✅-teal) 
+![Level](https://img.shields.io/badge/Level-Advanced-purple) 
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 
 </div>
