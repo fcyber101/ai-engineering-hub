@@ -1,4 +1,4 @@
-### 🎧 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
+### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
 [![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](03-ai-podcast-generator/assets/project3_demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/ai-podcast)
 
 #### Automatically generate structured scripts from any YouTube link with YouTube Summary Master. The system intelligently chunks long videos, extracts metadata, and creates rich summaries including executive overviews, TL;DR, semantic sections, key insights, and named entities – all in a beautifully formatted markdown document. Choose between lightning-fast Groq API or privacy-focused local BART processing, then download both summary and raw transcript with one click.
@@ -9,7 +9,7 @@
 <div align="center">
 
 ![Status](https://img.shields.io/badge/Status-Active-success) 
-![LangGraph](https://img.shields.io/badge/LangGraph-✴️-blue) 
+![LangGraph](https://img.shields.io/badge/LangGraph-🦜-blue) 
 ![Groq](https://img.shields.io/badge/Groq-⚡-purple) 
 ![Streamlit](https://img.shields.io/badge/Streamlit-📊-red) 
 ![BART](https://img.shields.io/badge/BART-🤗-blue) 
