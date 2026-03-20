@@ -100,7 +100,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 
 ### 🎧 [3.  AI News Podcast Generator - AI DAILY DIGEST](./03-ai-podcast-generator)
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](03-ai-podcast-generator/assets/project3_demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/ai-podcast)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](04-YouTubeScriptMaster/assets/project3_demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/ai-podcast)
 
 #### AI Podcast Generator transforms top AI news headlines into fully-produced podcast episodes automatically. Simply enter URLs of AI news sources, and the app scrapes, summarizes, and converts the content into a professional podcast script with downloadable MP3 audio. Choose your source - either extract the best AI news from top 50 websites or discover trending stories from HackerNews.
 
