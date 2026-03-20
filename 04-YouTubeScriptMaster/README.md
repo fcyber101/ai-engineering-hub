@@ -8,24 +8,19 @@
 
 <div align="center">
 
-[![Project Status: Active](https://img.shields.io/badge/Project_Status-Active-success?style=for-the-badge)](https://github.com/fcyber-labs/youtube-summary-master)
+![Project Status](https://img.shields.io/badge/Project_Status-Active-success?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-✴️-blue?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-⚡-purple?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-📊-red?style=for-the-badge)
+![BART Model](https://img.shields.io/badge/BART_Model-🤗-blue?style=for-the-badge)
+![Transformers](https://img.shields.io/badge/🤗_Transformers-✔️-yellow?style=for-the-badge)
+![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen?style=for-the-badge)
+![YouTube Transcript API](https://img.shields.io/badge/YouTube_Transcript_API-📝-lightgrey?style=for-the-badge)
+![Pydantic](https://img.shields.io/badge/Pydantic-✅-teal?style=for-the-badge)
+![asyncio](https://img.shields.io/badge/asyncio-⚙️-orange?style=for-the-badge)
+![Project Level](https://img.shields.io/badge/Project_Level-Advanced-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-[![LangGraph](https://img.shields.io/badge/LangGraph-✴️-blue?style=for-the-badge&logo=langchain&logoColor=white)](https://github.com/langchain-ai/langgraph)
-[![Groq](https://img.shields.io/badge/Groq-⚡-purple?style=for-the-badge&logo=groq&logoColor=white)](https://groq.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-📊-red?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-
-[![Hugging Face BART](https://img.shields.io/badge/BART_Model-🤗-blue?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/facebook/bart-large-cnn)
-[![Transformers](https://img.shields.io/badge/🤗_Transformers-✔️-yellow?style=for-the-badge)](https://github.com/huggingface/transformers)
-
-[![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen?style=for-the-badge)](https://github.com/yt-dlp/yt-dlp)
-[![YouTube Transcript API](https://img.shields.io/badge/YouTube_Transcript_API-📝-lightgrey?style=for-the-badge)](https://github.com/jdepoix/youtube-transcript-api)
-
-
-[![Pydantic](https://img.shields.io/badge/Pydantic-✅-teal?style=for-the-badge&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![asyncio](https://img.shields.io/badge/asyncio-⚙️-orange?style=for-the-badge)](https://docs.python.org/3/library/asyncio.html)
-
-[![Project Level](https://img.shields.io/badge/Project_Level-Advanced-purple?style=for-the-badge)](https://github.com/fcyber-labs/youtube-summary-master)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 </div>
 ---
