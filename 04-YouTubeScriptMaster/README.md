@@ -11,7 +11,6 @@
 ![Status](https://img.shields.io/badge/Status-Active-success) 
 ![LangGraph](https://img.shields.io/badge/LangGraph-🦜-blue) 
 ![Groq](https://img.shields.io/badge/Groq-⚡-purple) 
-![Streamlit](https://img.shields.io/badge/Streamlit-📊-red) 
 ![BART](https://img.shields.io/badge/BART-🤗-blue) 
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen) 
 ![Pydantic](https://img.shields.io/badge/Pydantic-✅-teal) 
