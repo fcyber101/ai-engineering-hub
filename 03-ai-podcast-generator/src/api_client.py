@@ -14,7 +14,7 @@ def init_clients(groq_api_key):
 
     
     llm = ChatGroq(
-        temperature=0.7,
+        temperature=0.9,
         model="openai/gpt-oss-120b",
         groq_api_key=groq_api_key
     )

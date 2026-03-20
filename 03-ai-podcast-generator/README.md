@@ -27,7 +27,7 @@
 | **🎙️ Podcast Script Generation** | Creates professional podcast scripts with engaging intros, natural transitions between stories, and compelling outros. |
 | **🔊 Text-to-Speech Conversion** | Converts podcast scripts to natural-sounding audio using **gTTS** with downloadable MP3 files for offline listening. |
 | **🔄 LangGraph Workflow** | Orchestrates the entire multi-step process through a structured LangGraph pipeline for reliability and modularity. |
-| **📊 Top-10 Article Selection** | Automatically selects and prioritizes the most relevant AI news articles based on intelligent scoring algorithms. |
+| **📊 Top-5 Article Selection** | Automatically selects and prioritizes the most relevant AI news articles based on intelligent scoring algorithms. |
 | **💾 File Export Options** | Download both the podcast script (.txt) and generated audio (.mp3) for sharing and archiving. |
 | **⚡ Groq Acceleration** | Ultra-fast LLM inference powered by Groq's LPU technology for real-time processing and summarization. |
 | **📝 BART Large CNN** | Facebook's BART Large CNN model generates high-quality, abstractive summaries by understanding context and rephrasing content naturally, perfect for condensing long-form content into digestible podcast scripts. |
