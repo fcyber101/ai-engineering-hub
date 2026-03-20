@@ -1,5 +1,5 @@
 ### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4_demo.gif) [![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4-demo.gif) [![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
 
 #### Automatically generate structured scripts from any YouTube link with YouTube Summary Master. The system intelligently chunks long videos, extracts metadata, and creates rich summaries including executive overviews, TL;DR, semantic sections, key insights, and named entities – all in a beautifully formatted markdown document. Choose between lightning-fast Groq API or privacy-focused local BART processing, then download both summary and raw transcript with one click.
 
@@ -13,9 +13,8 @@
 ![Groq](https://img.shields.io/badge/Groq-⚡-purple) 
 ![BART](https://img.shields.io/badge/BART-🤗-blue) 
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen) 
-![Pydantic](https://img.shields.io/badge/Pydantic-✅-teal) 
+![Loguru](https://img.shields.io/badge/Loguru-📋-teal) 
 ![Level](https://img.shields.io/badge/Level-Advanced-purple) 
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 
 </div>
@@ -25,7 +24,7 @@
 | Feature | Description |
 | :--- | :--- |
 | **📹 Multi-Source Transcript Extraction** | Automatically fetches transcripts from YouTube subtitles (manual & auto-generated), video descriptions, and external sources with intelligent fallback strategies. |
-| **🧠 Smart Metadata Extraction** | Extracts video title, channel, upload date, duration, caption type, and language with confidence scoring (0.95 for manual, 0.80 for auto). |
+| **🧠 Smart Metadata Extraction** | Extracts video title, channel, upload date, duration, caption type, and language with confidence scoring. |
 | **🔀 Dual-Mode AI Processing** | Switch between **Groq API** for lightning-fast, high-quality structuring or **Local BART** (sshleifer/distilbart-cnn-12-6) for free, private processing. |
 | **📊 Rich Content Structuring** | Generates executive summary, TL;DR, semantic sections, key insights, key quotes, named entities, and main topics from any video transcript. |
 | **🎨 Beautiful Markdown Output** | Creates professionally formatted markdown with table of contents, numbered sections, quote blocks, entity lists, and proper spacing. |
@@ -35,7 +34,7 @@
 | **🧩 Intelligent Chunking** | Handles 2+ hour videos with smart text splitting, overlapping chunks, and consolidation for complete transcript processing. |
 | **⚡ Groq Acceleration** | Ultra-fast LLM inference powered by Groq's LPU technology for real-time structuring of long-form content. |
 | **🤗 Local BART Model** | Facebook's DistilBART (sshleifer/distilbart-cnn-12-6) provides free, private summarization with high-quality results for offline use. |
-
+| **📝 Structured Logging** | **loguru**-based logging with rotation, compression, JSON output for cloud, colorized terminal output for development, and persistent log files for production. |
 
 ---
 
