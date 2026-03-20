@@ -116,6 +116,26 @@ Dieses Repository enthält LLM-Apps, die Modelle von <strong>OpenAI</strong>, <s
 
 </div>
 
+
+
+### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](04-YouTubeScriptMaster/assets/project4-demo.gif) [![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
+
+#### Erstellen Sie automatisch strukturierte Skripte aus jedem YouTube-Link mit YouTube Summary Master. Das System zerlegt lange Videos intelligent in Abschnitte, extrahiert Metadaten und erstellt umfangreiche Zusammenfassungen, einschließlich Executive Overview, TL;DR, semantischer Abschnitte, wichtiger Erkenntnisse und benannter Entitäten – alles in einem schön formatierten Markdown-Dokument. Wählen Sie zwischen der blitzschnellen Groq-API oder einer datenschutzorientierten lokalen BART-Verarbeitung und laden Sie anschließend sowohl die Zusammenfassung als auch das Rohtranskript mit einem Klick herunter.
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Active-success) 
+![LangGraph](https://img.shields.io/badge/LangGraph-🦜-blue) 
+![Groq](https://img.shields.io/badge/Groq-⚡-purple) 
+![BART](https://img.shields.io/badge/BART-🤗-blue) 
+![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen) 
+![Loguru](https://img.shields.io/badge/Loguru-📋-teal) 
+![Level](https://img.shields.io/badge/Level-Advanced-purple) 
+
+
+</div>
+
 ---
 
 ### 🚧 Weitere Projekte in Kürze

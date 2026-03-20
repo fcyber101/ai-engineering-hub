@@ -117,6 +117,25 @@
 </div>
 
 
+
+### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](04-YouTubeScriptMaster/assets/project4-demo.gif) [![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
+
+#### 使用 YouTube Summary Master，可从任何 YouTube 链接自动生成结构化脚本。系统能够智能拆分长视频、提取元数据，并生成丰富的摘要内容，包括总体概览、TL;DR、语义分段、关键洞察和命名实体——所有内容均以精美的 Markdown 文档呈现。您可以选择极速的 Groq API，或注重隐私的本地 BART 处理方式，然后一键下载摘要和原始转录文本。
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Active-success) 
+![LangGraph](https://img.shields.io/badge/LangGraph-🦜-blue) 
+![Groq](https://img.shields.io/badge/Groq-⚡-purple) 
+![BART](https://img.shields.io/badge/BART-🤗-blue) 
+![yt-dlp](https://img.shields.io/badge/yt--dlp-🎥-darkgreen) 
+![Loguru](https://img.shields.io/badge/Loguru-📋-teal) 
+![Level](https://img.shields.io/badge/Level-Advanced-purple) 
+
+
+</div>
+
 ---
 
 ### 🚧 更多项目即将推出

@@ -54,7 +54,7 @@
 |--------|---------|------|----------|
 | **Python** | `pip install -r requirements.txt && streamlit run streamlit_app.py` | 2-5 min | Python 3.9+ |
 | **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
-| **Hugging Face** | [![Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-FFD21E?style=flat-square)](https://huggingface.co/spaces/fcyber/ai-podcast) | 1 sec | Web browser |
+| **Hugging Face** | [![Live App](https://img.shields.io/badge/🚀-Live%20Demo-blue)](https://youtubescriptmaster.streamlit.app/) | 1 sec | Web browser |
 
 
 ### 📦 Option 1: Python (Local Setup)
@@ -126,14 +126,13 @@ docker-compose down
 
 • • •
 
-### 🤗 Option 3: Hugging Face Spaces
+### 👑 Option 3: Streamlit Community Cloud
 
-[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/spaces/fcyber/ai-podcast)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
 
 ```bash
 # No installation needed! Click the badge above to try the live demo.
-# Or clone and run locally:
-pip install huggingface-hub
-huggingface-cli download fcyber/ai-podcast
-python streamlit run streamlit_app.py  # Gradio apps run with python
+# Or run locally:
+pip install -r requirements.txt
+streamlit run app.py
 ```
