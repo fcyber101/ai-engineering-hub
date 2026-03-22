@@ -117,7 +117,7 @@
 
 
 ### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](04-YouTubeScriptMaster/assets/project4-demo.gif) [![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4-demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
 
 #### Автоматически создавайте структурированные сценарии из любой ссылки YouTube с помощью YouTube Summary Master. Система интеллектуально разбивает длинные видео на части, извлекает метаданные и создает подробные сводки, включая общий обзор, TL;DR, семантические разделы, ключевые выводы и именованные сущности — всё в красиво оформленном markdown-документе. Выберите между сверхбыстрым API Groq или ориентированной на конфиденциальность локальной обработкой BART, затем скачайте как сводку, так и исходную транскрипцию одним кликом.
 

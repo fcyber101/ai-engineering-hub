@@ -119,7 +119,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 
 ### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](04-YouTubeScriptMaster/assets/project4-demo.gif) [![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4-demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
 
 #### Automatically generate structured scripts from any YouTube link with YouTube Summary Master. The system intelligently chunks long videos, extracts metadata, and creates rich summaries including executive overviews, TL;DR, semantic sections, key insights, and named entities – all in a beautifully formatted markdown document. Choose between lightning-fast Groq API or privacy-focused local BART processing, then download both summary and raw transcript with one click.
 
