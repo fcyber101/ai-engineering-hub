@@ -73,7 +73,7 @@ cd ai-engineering-hub/01-agentic-rag-assistant
 3. **Установить необходимые зависимости**
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt && python app.py
 ```
 
 #### Следуйте инструкциям в файле `README.md` каждого проекта для настройки и запуска приложения.

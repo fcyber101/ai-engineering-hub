@@ -1,5 +1,6 @@
 ### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4-demo.gif) [![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4-demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
+
 
 #### Automatically generate structured scripts from any YouTube link with YouTube Summary Master. The system intelligently chunks long videos, extracts metadata, and creates rich summaries including executive overviews, TL;DR, semantic sections, key insights, and named entities – all in a beautifully formatted markdown document. Choose between lightning-fast Groq API or privacy-focused local BART processing, then download both summary and raw transcript with one click.
 
@@ -54,7 +55,7 @@
 |--------|---------|------|----------|
 | **Python** | `pip install -r requirements.txt && streamlit run streamlit_app.py` | 2-5 min | Python 3.9+ |
 | **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
-| **Hugging Face** | [![Live App](https://img.shields.io/badge/🚀-Live%20Demo-blue)](https://youtubescriptmaster.streamlit.app/) | 1 sec | Web browser |
+| **Hugging Face** | [![Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-FFD21E?style=flat-square)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster) | 1 sec | Web browser |
 
 
 ### 📦 Option 1: Python (Local Setup)
@@ -66,7 +67,7 @@
 
 2. **Navigate to the desired project directory**
    ```bash
-   cd ai-engineering-hub/03-ai-podcast-generator
+   cd ai-engineering-hub/04-YouTubeScriptMaster
    ```
 
 3. **Install the required dependencies**
@@ -92,7 +93,7 @@ git clone https://github.com/fcyber/ai-engineering-hub.git
 
 2. **Navigate to the desired project directory**
 ```bash
-cd ai-engineering-hub/03-ai-podcast-generator
+cd ai-engineering-hub/04-YouTubeScriptMaster
 ```
 
 3. **Set up environment variables**
@@ -126,13 +127,14 @@ docker-compose down
 
 • • •
 
-### 👑 Option 3: Streamlit Community Cloud
+### 🤗 Option 3: Hugging Face Spaces
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubescriptmaster.streamlit.app/)
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
 
 ```bash
 # No installation needed! Click the badge above to try the live demo.
-# Or run locally:
-pip install -r requirements.txt
-streamlit run app.py
+# Or clone and run locally:
+pip install huggingface-hub
+huggingface-cli download fcyber/YouTubeScriptMaster
+python streamlit run streamlit_app.py  # Gradio apps run with python
 ```

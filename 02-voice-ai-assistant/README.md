@@ -67,6 +67,12 @@
    pip install -r requirements.txt
    ```
 
+4. **Run streamlit apps**
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+
 #### Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
 • • •
 
@@ -123,5 +129,5 @@ docker-compose down
 # No installation needed! Click the badge above to try the live demo.
 # Or run locally:
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run streamlit_app.py
 ```

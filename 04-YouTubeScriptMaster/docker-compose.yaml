@@ -2,7 +2,7 @@
 
 services:
   youtube-transcript:
-    image: fcyber/youtube-transcript:latest
+    image: fcyber/youtubescriptmaster:latest
     container_name: youtube-summary
     ports:
       - "8501:8501"

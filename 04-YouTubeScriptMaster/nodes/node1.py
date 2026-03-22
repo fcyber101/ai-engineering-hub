@@ -56,7 +56,7 @@ async def node_1_video_metadata_and_source_detection(state: AgenticState) -> Age
             "type": "url_parse_failed",
             "message": str(e)
         })
-        logger.opt(exception=e, diagnose=False).error("Url parse failed")
+        logger.opt(exception=e).error("Url parse failed")
         return state
 
     
@@ -102,7 +102,7 @@ async def node_1_video_metadata_and_source_detection(state: AgenticState) -> Age
         state.extraction_warnings.append(
             f"Metadata extraction failed: {str(e)[:120]}"
         )
-        logger.opt(exception=e, diagnose=False).error("Metadata extraction failed")
+        logger.opt(exception=e).error("Metadata extraction failed")
 
         state.title = "Unknown"
         state.channel = "Unknown"
@@ -162,7 +162,7 @@ async def node_1_video_metadata_and_source_detection(state: AgenticState) -> Age
         state.extraction_warnings.append(
             f"Caption check failed: {str(e)[:120]}"
         )
-        logger.opt(exception=e, diagnose=False).error("Caption check failed")
+        logger.opt(exception=e).error("Caption check failed")
     
     # Decide Best Transcript Source
     

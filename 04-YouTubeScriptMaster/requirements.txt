@@ -21,5 +21,5 @@ regex>=2023.10.3
 python-dotenv>=1.0.0
 
 
-torch
+torch --index-url https://download.pytorch.org/whl/cpu
 loguru>=0.7.0

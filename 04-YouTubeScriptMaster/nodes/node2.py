@@ -47,7 +47,7 @@ async def node_2_transcript_extraction(state: AgenticState) -> AgenticState:
         )
 
     except Exception as e:
-        logger.opt(exception=e, diagnose=False).error("Transcript extraction failed")
+        logger.opt(exception=e).error("Transcript extraction failed")
         state.raw_transcript_text = ""
         state.transcript_source = "failed"
 

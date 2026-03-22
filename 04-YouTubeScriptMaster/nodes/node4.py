@@ -196,7 +196,7 @@ TRANSCRIPT:
 
         except Exception as e:
 
-            logger.opt(exception=e, diagnose=False).error("Node 4: ⚠️ chunk failed")
+            logger.opt(exception=e).error("Node 4: ⚠️ chunk failed")
             continue
 
 
@@ -264,7 +264,7 @@ Rules:
     except Exception as e:
 
 
-        logger.opt(exception=e, diagnose=False).error("Node 4: ⚠️ reduce step failed")
+        logger.opt(exception=e).error("Node 4: ⚠️ reduce step failed")
 
         final_sections = sections[:14]
         executive_summary = ""

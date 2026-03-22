@@ -72,6 +72,11 @@
    pip install -r requirements.txt
    ```
 
+4. **Run Python apps**
+   ```bash
+   python app.py
+   ```
+
 #### Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
 • • •
 
