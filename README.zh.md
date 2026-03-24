@@ -81,7 +81,7 @@
 
 
 ### 🤖 [2.  语音AI助手](./02-voice-ai-assistant)  
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](02-voice-ai-assistant/assets/project_2.gif) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fcyber101-voice-ai-assistant.streamlit.app/)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](02-voice-ai-assistant/assets/project_2.gif) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fcyber-labs-voice-ai-assistant.streamlit.app/)
 
 #### 具备实时语音识别、超快Groq推理、自然语音合成和可下载音频回复功能的语音AI助手。
 
@@ -319,20 +319,20 @@ git push origin feature/精彩项目
 
 | ⭐ **星标数** | 🍴 **复刻数** | 👀 **关注者** |
 |:-----------:|:-----------:|:--------------:|
-| [![GitHub Stars](https://img.shields.io/github/stars/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=ffd700)](https://github.com/fcyber101/ai-engineering-hub/stargazers) | [![GitHub Forks](https://img.shields.io/github/forks/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=58a6ff)](https://github.com/fcyber101/ai-engineering-hub/network/members) | [![GitHub Watchers](https://img.shields.io/github/watchers/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=2ea44f)](https://github.com/fcyber101/ai-engineering-hub/watchers) |
+| [![GitHub Stars](https://img.shields.io/github/stars/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=ffd700)](https://github.com/fcyber-labs/ai-engineering-hub/stargazers) | [![GitHub Forks](https://img.shields.io/github/forks/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=58a6ff)](https://github.com/fcyber-labs/ai-engineering-hub/network/members) | [![GitHub Watchers](https://img.shields.io/github/watchers/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=2ea44f)](https://github.com/fcyber-labs/ai-engineering-hub/watchers) |
 
 | 🐛 **问题** | 🔀 **拉取请求** | 📦 **版本发布** |
 |:------------:|:----------:|:---------------:|
-| [![GitHub Issues](https://img.shields.io/github/issues/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f85149)](https://github.com/fcyber101/ai-engineering-hub/issues) | [![GitHub PRs](https://img.shields.io/github/issues-pr/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f0883e)](https://github.com/fcyber101/ai-engineering-hub/pulls) | [![GitHub Release](https://img.shields.io/github/v/release/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=a371f7)](https://github.com/fcyber101/ai-engineering-hub/releases) |
+| [![GitHub Issues](https://img.shields.io/github/issues/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f85149)](https://github.com/fcyber-labs/ai-engineering-hub/issues) | [![GitHub PRs](https://img.shields.io/github/issues-pr/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=f0883e)](https://github.com/fcyber-labs/ai-engineering-hub/pulls) | [![GitHub Release](https://img.shields.io/github/v/release/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=a371f7)](https://github.com/fcyber-labs/ai-engineering-hub/releases) |
 
 | 👥 **贡献者** | 📅 **最后提交** | 📝 **许可证** |
 |:------------------:|:------------------:|:--------------:|
-| [![GitHub Contributors](https://img.shields.io/github/contributors/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/graphs/contributors) | [![GitHub Last Commit](https://img.shields.io/github/last-commit/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/commits/main) | [![GitHub License](https://img.shields.io/github/license/fcyber101/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber101/ai-engineering-hub/blob/main/LICENSE) |
+| [![GitHub Contributors](https://img.shields.io/github/contributors/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber-labs/ai-engineering-hub/graphs/contributors) | [![GitHub Last Commit](https://img.shields.io/github/last-commit/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber-labs/ai-engineering-hub/commits/main) | [![GitHub License](https://img.shields.io/github/license/fcyber-labs/ai-engineering-hub?style=flat-square&logo=github&logoColor=white&labelColor=2d3339&color=6e7681)](https://github.com/fcyber-labs/ai-engineering-hub/blob/main/LICENSE) |
 
 </div>
 
 ---
-[![Star History Chart](https://api.star-history.com/svg?repos=fcyber101/ai-engineering-hub&type=Date)](https://star-history.com/#fcyber101/ai-engineering-hub&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=fcyber-labs/ai-engineering-hub&type=Date)](https://star-history.com/#fcyber-labs/ai-engineering-hub&Date)
 ---
 
 <sub>由AI工程师为AI工程师用❤️构建</sub>
