@@ -118,7 +118,7 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 </div>
 
 
-### 📺 [4.  YouTubeScriptMaster](./04-YouTubeScriptMaster)
+### 📺 [4. YouTubeScriptMaster](./04-YouTubeScriptMaster)
 [![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4-demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
 
 #### Automatically generate structured scripts from any YouTube link with YouTube Summary Master. The system intelligently chunks long videos, extracts metadata, and creates rich summaries including executive overviews, TL;DR, semantic sections, key insights, and named entities – all in a beautifully formatted markdown document. Choose between lightning-fast Groq API or privacy-focused local BART processing, then download both summary and raw transcript with one click.
@@ -135,6 +135,29 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 
 </div>
+
+
+
+### 👨‍🎨 [5.  AI Presentation Generator](./05-ai-presentation-generator)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project5-demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
+
+#### AI Presentation Generator is an AI-powered presentation engine that transforms raw text into polished, executive-ready PowerPoint decks using a structured LangGraph pipeline. It extracts key insights, organizes content into compelling narratives, generates concise summaries, and enhances each slide with AI-generated visuals and modern glassmorphism design. The result is a high-impact, visually consistent .pptx presentation that rivals professional-grade work—delivering one clear, memorable takeaway per slide.
+
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Active-success)
+![LangGraph](https://img.shields.io/badge/LangGraph-🦜-blue)
+![Groq](https://img.shields.io/badge/Groq-⚡-purple)
+![Playground](https://img.shields.io/badge/Playground-v2.5-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
+![Loguru](https://img.shields.io/badge/Loguru-📋-teal)
+![Level](https://img.shields.io/badge/Level-Advanced-purple)
+![AI Image Generation](https://img.shields.io/badge/AI_Image_Generation-🖼️-purple)
+
+
+</div>
+
 ---
 
 

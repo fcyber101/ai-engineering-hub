@@ -48,10 +48,11 @@
 ### 🎯 快速启动比较（更新版）
 
 | 方法 | 命令 | 时间 | 需要 |
-|--------|---------|------|---------|
-| **Python** | `pip install -r requirements.txt && python app.py` | 2-5分钟 | Python 3.9+ |
-| **Docker** | `docker-compose up -d` | 30秒 | Docker + Compose |
-| **Hugging Face** | [![Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-FFD21E?style=flat-square)](https://huggingface.co/spaces/fcyber/agentic_rag) | 1秒 | 网页浏览器 |
+|--------|---------|------|----------|
+| **Python** | `pip install -r requirements.txt && python app.py` | 2-5 min | Python 3.9+ |
+| **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
+| **Hugging Face** | [![Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-FFD21E?style=flat-square)](https://huggingface.co/spaces/fcyber/agentic_rag) | 1 sec | Web browser |
+| **Production** | [![GitLab](https://img.shields.io/badge/GitLab-Production%20(5000)-FC6D26?style=flat-square&logo=gitlab)](http://141.144.205.187:5000) | Instant | Web browser |
 
 ### 📦 选项1：Python（本地设置）
 
