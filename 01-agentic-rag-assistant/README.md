@@ -38,7 +38,7 @@
 
 <div align="center">
 
-![Agentischer RAG-Workflow](assets/workflow.gif)
+![Agentischer RAG-Workflow](assets/workflow.JPG)
 
 </div>
 
@@ -53,7 +53,7 @@
 | **Python** | `pip install -r requirements.txt && python app.py` | 2-5 min | Python 3.9+ |
 | **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
 | **Hugging Face** | [![Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-FFD21E?style=flat-square)](https://huggingface.co/spaces/fcyber/agentic_rag) | 1 sec | Web browser |
-
+| **Production (Your Server)** | [![GitLab](https://img.shields.io/badge/GitLab-Production%20(5000)-FC6D26?style=flat-square&logo=gitlab)](http://92.5.237.201:5000) | Instant | Web browser |
 
 ### 📦 Option 1: Python (Local Setup)
 
