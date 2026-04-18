@@ -1,0 +1,19 @@
+
+
+services:
+  presentation-generator:
+    image: fcyber/ai-presentation-generator:latest
+    container_name: ai-presentation-generator
+    ports:
+      - "8000:8000"
+    volumes:
+      - hf_cache:/app/.cache/huggingface
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+    environment:
+
+      - HF_HOME=/app/.cache/huggingface
+    restart: unless-stopped
+
+volumes:
+  hf_cache:

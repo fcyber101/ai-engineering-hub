@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Presentation Generator</title>
+    <style>
+        body { 
+            font-family: Arial; 
+            max-width: 800px; 
+            margin: 50px auto; 
+            padding: 20px; 
+        }
+        textarea { 
+            width: 100%; 
+            padding: 10px; 
+            margin: 10px 0; 
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input[type="password"] {
+            width: 100%; 
+            padding: 10px; 
+            margin: 10px 0; 
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button { 
+            background: #667eea; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            cursor: pointer; 
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #5a67d8;
+        }
+        .success { 
+            background: #d4edda; 
+            padding: 20px; 
+            margin-top: 20px; 
+            border-radius: 5px;
+            color: #155724;
+        }
+        .error { 
+            background: #f8d7da; 
+            padding: 20px; 
+            margin-top: 20px; 
+            border-radius: 5px;
+            color: #721c24;
+        }
+        .loading { 
+            display: none; 
+            margin-top: 20px; 
+            color: #667eea;
+            font-weight: bold;
+        }
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .api-key-section {
+            background: #f7f9fc;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+        }
+        hr {
+            margin: 20px 0;
+        }
+        .status-valid {
+            color: green;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .status-invalid {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        small {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎨 AI Presentation Generator</h1>
+    <p><em>Turn any text into a professional presentation</em></p>
+    
+    <hr>
+    
+    <div class="checkbox-label">
+        <input type="checkbox" id="useImages">
+        <label>🎨 Generate Images (GPU required)</label>
+    </div>
+    
+    <div class="api-key-section">
+        <h3>🔑 API Configuration</h3>
+        <input type="password" id="groqApiKey" placeholder="Enter your Groq API key">
+        <div id="apiKeyStatus"></div>
+        <small>Or just get your API key at <a href="https://console.groq.com" target="_blank">console.groq.com</a></small>
+    </div>
+    
+    <h3>📝 Enter your text:</h3>
+    <textarea id="text" rows="12" placeholder="Paste your article, notes, or any text content here...&#10;&#10;The AI will automatically extract key points and create a professional presentation."></textarea>
+    
+    <br>
+    <button onclick="loadExample()">📋 Load Example</button>
+    <button onclick="generate()">🚀 Generate Presentation</button>
+    
+    <div id="loading" class="loading">⏳ Generating your presentation... This may take a minute.</div>
+    <div id="result"></div>
+    
+    <hr>
+    <p style="text-align: center; color: gray;">Powered by Groq LLM | LangGraph | FastAPI</p>
+    <p style="text-align: center; color: black;">
+        <a href="https://github.com/fcyber-labs/ai-engineering-hub" target="_blank" rel="noopener noreferrer" style="color: black; text-decoration: none;">
+            https://github.com/fcyber-labs/ai-engineering-hub
+        </a>
+    </p>
+
+    <script>
+        const exampleText = `Artificial Intelligence in Healthcare: Transforming Patient Care
+
+Artificial Intelligence is revolutionizing healthcare by improving diagnosis accuracy, personalizing treatment plans, and streamlining administrative tasks. Machine learning algorithms can now detect diseases like cancer from medical images with higher accuracy than human radiologists.
+
+Key Benefits:
+- Early disease detection through pattern recognition
+- Personalized treatment recommendations based on patient data
+- Reduced administrative burden through automated documentation
+- 24/7 patient support via AI-powered chatbots
+
+Implementation Challenges:
+- Data privacy and security concerns
+- Integration with existing healthcare systems
+- Need for regulatory compliance
+- Training healthcare professionals to use AI tools
+
+Future Outlook:
+- AI-powered robotic surgery
+- Predictive analytics for disease outbreaks
+- Virtual health assistants for remote monitoring
+- Drug discovery acceleration through AI modeling`;
+        
+        function loadExample() {
+            document.getElementById('text').value = exampleText;
+        }
+        
+        // API key validation
+        document.getElementById('groqApiKey').addEventListener('input', async function() {
+            const apiKey = this.value;
+            const statusDiv = document.getElementById('apiKeyStatus');
+            
+            if (apiKey && apiKey.startsWith('gsk_')) {
+                try {
+                    const response = await fetch('/validate_key', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({groq_api_key: apiKey})
+                    });
+                    const data = await response.json();
+                    if (data.valid) {
+                        statusDiv.innerHTML = '<div class="status-valid">✅ API key valid</div>';
+                    } else {
+                        statusDiv.innerHTML = '<div class="status-invalid">❌ Invalid API key</div>';
+                    }
+                } catch (error) {
+                    statusDiv.innerHTML = '<div class="status-invalid">❌ Error validating API key</div>';
+                }
+            } else if (apiKey) {
+                statusDiv.innerHTML = '<div class="status-invalid">❌ API key should start with "gsk_"</div>';
+            } else {
+                statusDiv.innerHTML = '';
+            }
+        });
+        
+        async function generate() {
+            const text = document.getElementById('text').value;
+            const useImages = document.getElementById('useImages').checked;
+            const groqApiKey = document.getElementById('groqApiKey').value;
+            
+            if (!text.trim()) {
+                alert('❌ Please enter some text first!');
+                return;
+            }
+            
+            if (!groqApiKey || !groqApiKey.startsWith('gsk_')) {
+                alert('❌ Please enter a valid Groq API key (starts with gsk_)');
+                return;
+            }
+            
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('result').innerHTML = '';
+            
+            try {
+                const response = await fetch('/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        text: text,
+                        use_images: useImages,
+                        groq_api_key: groqApiKey
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    let html = '<div class="success">';
+                    html += '✅ Presentation generated successfully!<br><br>';
+                    
+                    if (data.download_url) {
+                        html += `<a href="${data.download_url}" download style="background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">📥 Download PPTX</a>`;
+                    }
+                    
+                    if (data.images_generated) {
+                        html += '<br><br>🎨 AI-generated images included! 🎉🎉🎉';
+                    }
+                    
+                    html += '</div>';
+                    document.getElementById('result').innerHTML = html;
+                } else {
+                    document.getElementById('result').innerHTML = `<div class="error">❌ ${data.error || 'Failed to generate presentation'}</div>`;
+                }
+            } catch (error) {
+                document.getElementById('result').innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

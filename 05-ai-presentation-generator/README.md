@@ -1,4 +1,4 @@
-### 👨‍🎨 [5.  AI Presentation Generator](./05-ai-presentation-generator)
+### 📽️ [5.  AI Presentation Generator](./05-ai-presentation-generator)
 [![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project5-demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
 
 
@@ -12,8 +12,6 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![LangGraph](https://img.shields.io/badge/LangGraph-🦜-blue)
 ![Groq](https://img.shields.io/badge/Groq-⚡-purple)
-![Playground](https://img.shields.io/badge/Playground-v2.5-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
 ![Loguru](https://img.shields.io/badge/Loguru-📋-teal)
 ![Level](https://img.shields.io/badge/Level-Advanced-purple)
 ![AI Image Generation](https://img.shields.io/badge/AI_Image_Generation-🖼️-purple)
@@ -67,7 +65,7 @@
 
 2. **Navigate to the desired project directory**
    ```bash
-   cd ai-engineering-hub/04-YouTubeScriptMaster
+   cd ai-engineering-hub/05-ai-presentation-generator
    ```
 
 3. **Install the required dependencies**
@@ -93,7 +91,7 @@ git clone https://github.com/fcyber/ai-engineering-hub.git
 
 2. **Navigate to the desired project directory**
 ```bash
-cd ai-engineering-hub/04-YouTubeScriptMaster
+cd ai-engineering-hub/05-ai-presentation-generator
 ```
 
 3. **Set up environment variables**
