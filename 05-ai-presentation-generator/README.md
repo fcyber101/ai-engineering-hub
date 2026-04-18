@@ -1,5 +1,5 @@
 ### 📽️ [5.  AI Presentation Generator](./05-ai-presentation-generator)
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project5-demo.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/demo5.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
 
 
 #### AI Presentation Generator is an AI-powered presentation engine that transforms raw text into polished, executive-ready PowerPoint decks using a structured LangGraph pipeline. It extracts key insights, organizes content into compelling narratives, generates concise summaries, and enhances each slide with AI-generated visuals and modern glassmorphism design. The result is a high-impact, visually consistent .pptx presentation that rivals professional-grade work—delivering one clear, memorable takeaway per slide.
@@ -39,7 +39,7 @@
 
 <div align="center">
 
-![Agentischer RAG-Workflow](assets/workflow.gif)
+![Agentischer RAG-Workflow](assets/project5.jpeg)
 
 </div>
 
@@ -79,7 +79,7 @@
 
 5. **Open in browser**
 ```bash
-http://localhost:8000
+   http://localhost:8000
 ```
 
 #### Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
