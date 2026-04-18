@@ -60,7 +60,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
+   git clone https://github.com/fcyber-labs/ai-engineering-hub.git
    ```
 
 2. **Navigate to the desired project directory**
@@ -74,8 +74,13 @@
    ```
 4. **Run streamlit apps**
    ```bash
-   streamlit run streamlit_app.py
+   uvicorn app:app --host 0.0.0.0 --port 8000 --reload
    ```
+
+5. **Open in browser**
+```bash
+http://localhost:8000
+```
 
 #### Follow the project-specific instructions in each project's `README.md` file to set up and run the app.
 • • •

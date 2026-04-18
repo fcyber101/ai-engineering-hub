@@ -54,7 +54,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
+   git clone https://github.com/fcyber-labs/ai-engineering-hub.git
    ```
 
 2. **Navigate to the desired project directory**
@@ -82,7 +82,7 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/fcyber/ai-engineering-hub.git
+git clone https://github.com/fcyber-labs/ai-engineering-hub.git
 ```
 
 2. **Navigate to the desired project directory**

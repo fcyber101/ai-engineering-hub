@@ -59,7 +59,7 @@
 
 1. **克隆代码库**
 ```bash
-git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
+git clone https://github.com/fcyber-labs/ai-engineering-hub.git
 ```
 
 2. **导航到所需项目目录**
@@ -83,7 +83,7 @@ pip install -r requirements.txt && python app.py
 
 1. **克隆代码库**
 ```bash
-git clone https://github.com/fcyber/ai-engineering-hub.git
+git clone https://github.com/fcyber-labs/ai-engineering-hub.git
 ```
 
 2. **导航到所需项目目录**

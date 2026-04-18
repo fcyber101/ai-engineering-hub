@@ -169,7 +169,7 @@ Dieses Repository enthält LLM-Apps, die Modelle von <strong>OpenAI</strong>, <s
 
 1. **Repository klonen**
 ```bash
-git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
+git clone https://github.com/fcyber-labs/ai-engineering-hub.git
 ```
 
 2. **In das gewünschte Projektverzeichnis navigieren**
@@ -191,7 +191,7 @@ pip install -r requirements.txt && python app.py
 [![Docker Compose](https://img.shields.io/badge/Docker_Compose-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
 1. **Repository klonen**
 ```bash
-git clone https://github.com/fcyber/ai-engineering-hub.git
+git clone https://github.com/fcyber-labs/ai-engineering-hub.git
 ```
 
 2. **In das gewünschte Projektverzeichnis navigieren**

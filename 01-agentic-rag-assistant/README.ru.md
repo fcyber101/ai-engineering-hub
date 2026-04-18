@@ -62,7 +62,7 @@
 1. **Клонировать репозиторий**
 
 ```bash
-git clone [https://github.com/fcyber/ai-engineering-hub.git](https://github.com/fcyber/ai-engineering-hub.git)
+git clone https://github.com/fcyber-labs/ai-engineering-hub.git
 ```
 
 2. **Перейти в нужную директорию проекта**
@@ -88,7 +88,7 @@ pip install -r requirements.txt && python app.py
 1. **Клонировать репозиторий**
 
 ```bash
-git clone https://github.com/fcyber/ai-engineering-hub.git
+git clone https://github.com/fcyber-labs/ai-engineering-hub.git
 ```
 
 2. **Перейти в нужную директорию проекта**
