@@ -131,3 +131,13 @@ docker-compose down
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
+---
+###  Watch demo 
+
+<div align="center">
+
+![Agentischer RAG-Workflow](assets/project_2.gif)
+
+</div>
+
+---

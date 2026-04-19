@@ -133,3 +133,15 @@ pip install huggingface-hub
 huggingface-cli download fcyber/ai-podcast
 python streamlit run streamlit_app.py  # Gradio apps run with python
 ```
+
+
+---
+###  Watch demo 
+
+<div align="center">
+
+![Agentischer RAG-Workflow](assets/project3_demo.gif)
+
+</div>
+
+---

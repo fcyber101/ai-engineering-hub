@@ -136,3 +136,16 @@ pip install huggingface-hub
 huggingface-cli download fcyber/agentic-rag-assistant
 python app.py  # Gradio apps run with python
 ```
+---
+###  Watch demo 
+
+<div align="center">
+
+![Agentischer RAG-Workflow](assets/project_1.gif)
+
+</div>
+
+---
+
+
+

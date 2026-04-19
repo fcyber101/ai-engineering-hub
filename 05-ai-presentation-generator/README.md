@@ -15,11 +15,10 @@
 ![Loguru](https://img.shields.io/badge/Loguru-📋-teal)
 ![Level](https://img.shields.io/badge/Level-Advanced-purple)
 ![AI Image Generation](https://img.shields.io/badge/AI_Image_Generation-🖼️-purple)
-
+![FastAPI](https://img.shields.io/badge/Groq-🚀-green)
 
 </div>
 ---
-
 
 | Feature | Description |
 | :--- | :--- |
@@ -33,6 +32,8 @@
 | 🎨 **Modern Design** | Clean, professional styling with consistent visuals |
 | 📌 **Key Message Focus** | Each slide delivers one clear takeaway |
 | 📄 **Export Options** | Generates PowerPoint (`.pptx`) with optional PDF |
+| 🚀 **FastAPI Backend** | RESTful API endpoints for slide generation and management |
+| 🧪 **pytest Testing** | Comprehensive unit and integration tests for reliability |
 
 ---
 
@@ -142,7 +143,7 @@ huggingface-cli download fcyber/YouTubeScriptMaster
 python streamlit run streamlit_app.py  # Gradio apps run with python
 ```
 ---
-**Demo video**
+###  Watch demo 
 
 <div align="center">
 

@@ -138,3 +138,13 @@ pip install huggingface-hub
 huggingface-cli download fcyber/YouTubeScriptMaster
 python streamlit run streamlit_app.py  # Gradio apps run with python
 ```
+---
+###  Watch demo 
+
+<div align="center">
+
+![Agentischer RAG-Workflow](assets/project4-demo.gif)
+
+</div>
+
+---
