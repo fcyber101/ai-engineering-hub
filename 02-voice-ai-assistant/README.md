@@ -132,7 +132,8 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 ---
-###  Watch demo 
+### 🖥  Watch demo 
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project_2.gif)
 
 <div align="center">
 

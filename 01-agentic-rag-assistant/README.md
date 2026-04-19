@@ -137,11 +137,12 @@ huggingface-cli download fcyber/agentic-rag-assistant
 python app.py  # Gradio apps run with python
 ```
 ---
-###  Watch demo 
+### 🖥  Watch demo 
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project_1.gif))
 
 <div align="center">
 
-![Agentischer RAG-Workflow](assets/project_1.gif)
+![Agentischer RAG-Workflow demo](assets/project_1.gif)
 
 </div>
 

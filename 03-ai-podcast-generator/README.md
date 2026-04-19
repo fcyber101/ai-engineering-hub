@@ -136,7 +136,8 @@ python streamlit run streamlit_app.py  # Gradio apps run with python
 
 
 ---
-###  Watch demo 
+### 🖥  Watch demo 
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project3_demo.gif)
 
 <div align="center">
 

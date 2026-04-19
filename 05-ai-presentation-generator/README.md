@@ -15,7 +15,7 @@
 ![Loguru](https://img.shields.io/badge/Loguru-📋-teal)
 ![Level](https://img.shields.io/badge/Level-Advanced-purple)
 ![AI Image Generation](https://img.shields.io/badge/AI_Image_Generation-🖼️-purple)
-![FastAPI](https://img.shields.io/badge/Groq-🚀-green)
+![FastAPI](https://img.shields.io/badge/FastAP-🚀-green)
 
 </div>
 ---
@@ -143,7 +143,8 @@ huggingface-cli download fcyber/YouTubeScriptMaster
 python streamlit run streamlit_app.py  # Gradio apps run with python
 ```
 ---
-###  Watch demo 
+### 🖥  Watch demo 
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/demo5.gif)
 
 <div align="center">
 

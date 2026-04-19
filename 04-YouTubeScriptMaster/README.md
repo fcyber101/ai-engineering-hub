@@ -139,7 +139,8 @@ huggingface-cli download fcyber/YouTubeScriptMaster
 python streamlit run streamlit_app.py  # Gradio apps run with python
 ```
 ---
-###  Watch demo 
+### 🖥  Watch demo 
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/project4-demo.gif)
 
 <div align="center">
 
