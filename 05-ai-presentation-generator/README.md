@@ -1,5 +1,5 @@
 ### 📽️ [5.  AI Presentation Generator](./05-ai-presentation-generator)
-[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/demo5.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
+[![Demo Video](https://img.shields.io/badge/📺-Watch%20Demo-red)](assets/demo5.gif) [![Live App](https://img.shields.io/badge/🤗-Try%20Now-yellow)](https://huggingface.co/spaces/fcyber/ai-presentation-generator)
 
 
 #### AI Presentation Generator is an AI-powered presentation engine that transforms raw text into polished, executive-ready PowerPoint decks using a structured LangGraph pipeline. It extracts key insights, organizes content into compelling narratives, generates concise summaries, and enhances each slide with AI-generated visuals and modern glassmorphism design. The result is a high-impact, visually consistent .pptx presentation that rivals professional-grade work—delivering one clear, memorable takeaway per slide.
@@ -53,7 +53,7 @@
 |--------|---------|------|----------|
 | **Python** | `pip install -r requirements.txt && streamlit run streamlit_app.py` | 2-5 min | Python 3.9+ |
 | **Docker** | `docker-compose up -d` | 30 sec | Docker + Compose |
-| **Hugging Face** | [![Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-FFD21E?style=flat-square)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster) | 1 sec | Web browser |
+| **Hugging Face** | [![Hugging Face](https://img.shields.io/badge/🤗%20Live%20Demo-FFD21E?style=flat-square)](https://huggingface.co/spaces/fcyber/ai-presentation-generator) | 1 sec | Web browser |
 
 
 ### 📦 Option 1: Python (Local Setup)
@@ -132,7 +132,7 @@ docker-compose down
 
 ### 🤗 Option 3: Hugging Face Spaces
 
-[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/spaces/fcyber/ai-presentation-generator)
 
 ```bash
 # No installation needed! Click the badge above to try the live demo.
