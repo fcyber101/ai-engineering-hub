@@ -1,8 +1,17 @@
 
 
 from loguru import logger
-#from diffusers import DiffusionPipeline
-#import torch
+
+# GPU only imports 
+if torch.cuda.is_available():
+    import torch
+    from diffusers import DiffusionPipeline
+    print("GPU detected - using CUDA")
+else:
+    #from diffusers import DiffusionPipeline
+    #import torch
+    pass
+    
 import time
 from typing import Dict, Any, Optional, Tuple
 from PIL import Image
