@@ -7,9 +7,6 @@
 </div>
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fcyber)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profile-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/fcyber)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/fcyber)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-0.1.0-1C3C3C?logo=langchain&logoColor=white)
@@ -52,11 +49,25 @@ This repository features LLM apps that use models from <strong>OpenAI</strong>, 
 
 ---
 
-## 🤔 Why AI Engineering Hub?
+**5 projects live. More shipping every few weeks.**
 
-| 💡 **See the Possibilities** | 🔥 **Witness the Evolution** | 🎓 **Master the Craft** |
-| :--- | :--- | :--- |
-| Move beyond chatbots—explore how LLMs analyze contracts, reason over knowledge graphs, simulate personalities, and automate complex workflows. | From single agents to swarms—experience MCP-powered tools, collaborative agent teams, and self-correcting RAG pipelines in action. | Fork, experiment, and build. Every project is a classroom—documented, tested, and ready for your unique twist. |
+This is where I build and document real AI engineering work — not tutorials copied from docs, not "hello world" agents. Every project here started from a problem I actually wanted to solve, and the code reflects that.
+
+The stack changes per project depending on what fits. LangGraph when I need stateful agent loops. Groq when inference speed matters. Local models when I want to understand what's actually happening under the hood. Each folder has a working app, a proper README, and usually a live demo you can try right now without cloning anything.
+
+If you're an engineer looking to see how these systems get built in practice — not in theory — this is the repo for that.
+---
+
+## What's here
+
+|#|Project|What it does|Stack|Demo|
+|---|---|---|---|---|
+|01|[Agentic RAG Assistant](https://claude.ai/chat/752de37c-c299-4a89-85fe-c56f772a11e5#-1-agentic-rag-assistant)|Smart Q&A with self-correction and hallucination detection|LangGraph · Hybrid Search · GPT-4o|[🤗 Try it](https://huggingface.co/spaces/fcyber/agentic_rag)|
+|02|[Voice AI Assistant](https://claude.ai/chat/752de37c-c299-4a89-85fe-c56f772a11e5#-2-voice-ai-assistant)|Talk to an AI, get voice responses back|Groq · Whisper · gTTS · Streamlit|[🌐 Live app](https://fcyber-labs-voice-ai-assistant.streamlit.app/)|
+|03|[AI Podcast Generator](https://claude.ai/chat/752de37c-c299-4a89-85fe-c56f772a11e5#-3-ai-news-podcast-generator)|News URLs → produced podcast episode with MP3|LangGraph · BART · Groq · gTTS|[🤗 Try it](https://huggingface.co/spaces/fcyber/ai-podcast)|
+|04|[YouTubeScriptMaster](https://claude.ai/chat/752de37c-c299-4a89-85fe-c56f772a11e5#-4-youtubescriptmaster)|YouTube video → structured script and summary|LangGraph · Groq · yt-dlp · BART|[🤗 Try it](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)|
+|05|[AI Presentation Generator](https://claude.ai/chat/752de37c-c299-4a89-85fe-c56f772a11e5#-5-ai-presentation-generator)|Plain text → full PowerPoint deck with AI images|LangGraph · Groq · python-pptx · Streamlit|[🤗 Try it](https://huggingface.co/spaces/fcyber/YouTubeScriptMaster)|
+
 
 ---
 
